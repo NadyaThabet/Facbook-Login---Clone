@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons -->
+    <link rel="stylesheet" href="styles/all.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Facebook-login</title>
+  </head>
+  <body>
+    <div class="fb-div">
+      <div class="container">
+        <div class="row vh-100 justify-content-center align-items-center">
+          <!-- left-text sec. start -->
+          <div class="left-side col-xl-4 col-lg-4 col-md-5 text-sm-center">
+            <h1 class="fw-bolder text-primary text-center">Facebook</h1>
+            <p class="fs-3 text-secondary text-center">
+              Connect with friends and the world around you.
+            </p>
+          </div>
+          <!-- left-text sec. end -->
+
+          <!--right-forum sec. start  -->
+          <div
+            class="right-side bg-light-subtle shadow-lg col-xl-4 d-flex flex-column"
+          >
+            <div class="email mt-3">
+              <label
+                for="formGroupExampleInput"
+                class="form-labelc text-primary fw-bold emailLabel"
+                >Email :</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-lg fs-6 emailInput mt-2"
+                id="formGroupExampleInput"
+                placeholder="Email adress or phone number"
+                title="Must Contain a Valid Domain"
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <label
+                for="formGroupExampleInput2"
+                class="form-label text-primary fw-bold passLabel"
+                >Password :</label
+              >
+              <input
+                type="password"
+                class="form-control form-control-lg fs-6 passInput passInput"
+                id="formGroupExampleInput2"
+                placeholder="Password"
+                title="Must Be More Than 8 Charcters"
+              />
+            </div>
+
+            <div class="form-check text-primary fw-bolder mb-4">
+              <input
+                class="form-check-input showInput"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label showLabel" for="flexCheckDefault">
+                Show Password
+              </label>
+            </div>
+
+            <button type="button" class="btn btn-primary mb-4">Login</button>
+            <a href="" class="text-center text-decoration-none mb-3"
+              >Forgot Password?</a
+            >
+            <hr />
+            <form action="sign-up.html" onsubmit="return indexValidation()">
+              <div class="btn-new d-flex justify-content-center">
+                <button type="submit" class="btn btn-success new-btn mb-3">
+                  creat new account
+                </button>
+              </div>
+            </form>
+            <p class="text-center">
+              <a href="" class="text-decoration-none fw-bold">creat a page</a>
+              for a celebrity, brand or a business
+            </p>
+          </div>
+          <!--right-forum sec. end  -->
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

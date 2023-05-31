@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.right-side {
+  min-height: 55vh;
+  min-width: 30%;
+}
+
+/* @media screen and (max-width: 1399px) {
+  .right-side {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .right-side {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .right-side {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .right-side {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .right-side {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .right-side {
+    width: 85%;
+  }
+} */
+
+.new-btn {
+  background-color: #42b72a;
+}
+
+.card {
+  background-color: white;
+}
+
+.mydiv {
+  min-width: 100%;
+  text-align: center;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
