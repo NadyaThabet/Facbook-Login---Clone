@@ -51,11 +51,12 @@
               >
               <input
                 type="password"
-                class="form-control form-control-lg fs-6 passInput passInput"
+                class="form-control form-control-lg fs-6 passInput"
                 id="formGroupExampleInput2"
                 placeholder="Password"
                 title="Must Be More Than 8 Charcters"
               />
+              <div class="div mt-2"></div>
             </div>
 
             <div class="form-check text-primary fw-bolder mb-4">
@@ -69,13 +70,18 @@
                 Show Password
               </label>
             </div>
-
-            <button type="button" class="btn btn-primary mb-4">Login</button>
+            <button
+              type="button"
+              class="btn btn-primary mb-4"
+              onclick="return indexValidation()"
+            >
+              Login
+            </button>
             <a href="" class="text-center text-decoration-none mb-3"
               >Forgot Password?</a
             >
             <hr />
-            <form action="sign-up.html" onsubmit="return indexValidation()">
+            <form action="sign-up.html">
               <div class="btn-new d-flex justify-content-center">
                 <button type="submit" class="btn btn-success new-btn mb-3">
                   creat new account
@@ -93,6 +99,6 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
